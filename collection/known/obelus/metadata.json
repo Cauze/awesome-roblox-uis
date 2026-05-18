@@ -1,10 +1,10 @@
 {
-  "id": "obelus",
-  "name": "Obelus",
-  "author": {
-    "name": "i77lhm",
-    "url": "https://github.com/i77lhm"
-  },
-  "source": "https://github.com/i77lhm/Libraries/tree/main/Obelus",
-  "preview": "https://github.com/i77lhm/Libraries/blob/main/Images/obelus.png?raw=true"
+    "id":  "obelus",
+    "name":  "Obelus",
+    "author":  {
+                   "name":  "i77lhm",
+                   "url":  "https://github.com/i77lhm"
+               },
+    "source":  "https://github.com/i77lhm/Libraries/tree/main/Obelus",
+    "preview":  "https://fent.pics/jiirrpx5.png"
 }

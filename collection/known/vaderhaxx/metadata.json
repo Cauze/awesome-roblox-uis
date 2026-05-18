@@ -1,10 +1,10 @@
 {
-  "id": "vaderhaxx",
-  "name": "Vaderhaxx",
-  "author": {
-    "name": "i77lhm",
-    "url": "https://github.com/i77lhm"
-  },
-  "source": "https://github.com/i77lhm/Libraries/tree/main/Vaderhaxx",
-  "preview": "https://github.com/i77lhm/Libraries/blob/main/Images/vaderhaxx.png?raw=true"
+    "id":  "vaderhaxx",
+    "name":  "Vaderhaxx",
+    "author":  {
+                   "name":  "i77lhm",
+                   "url":  "https://github.com/i77lhm"
+               },
+    "source":  "https://github.com/i77lhm/Libraries/tree/main/Vaderhaxx",
+    "preview":  "https://fent.pics/1ja0yk5q.png"
 }
