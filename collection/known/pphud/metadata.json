@@ -1,0 +1,42 @@
+{
+    "id": "pphud",
+    "name": "PPHUD",
+    "author": {
+        "name": "ZCute",
+        "url": "https://v3rmillion.net/member.php?action=profile&uid=1431869"
+    },
+    "source": "https://github.com/GhostDuckyy/UI-Libraries/tree/main/PPHUD",
+    "preview": "https://camo.githubusercontent.com/65ae7e9d08e44f217b2329c4689f8b4591fe43a187423d6baf85dae790e1d53b/68747470733a2f2f65787465726e616c2d636f6e74656e742e6475636b6475636b676f2e636f6d2f69752f3f753d6874747073253341253246253246692e7667792e6d65253246366e425234392e706e67",
+    "description": "Minimalist Roblox UI library with dark theme. Includes Window, Tab, Section, Toggle, Button, Slider, Dropdown, and Label widgets. Features resizable windows, console logging, and dual-section layouts.",
+    "widgets": [
+        "Window",
+        "Tab",
+        "Section",
+        "Toggle",
+        "Button",
+        "Slider",
+        "Dropdown",
+        "Label"
+    ],
+    "apiSignature": {
+        "Window": "Library:Window({Text})",
+        "Tab": "Window:Tab({Text})",
+        "Section": "Tab:Section({Text, Side})",
+        "Toggle": "Section:Check({Text, Flag, Default, Callback})",
+        "Button": "Section:Button({Text, Callback})",
+        "Slider": "Section:Slider({Text, Flag, Minimum, Maximum, Default, Incrementation, Postfix, Callback})",
+        "Dropdown": "Section:Dropdown({Text, Flag, Default, List, Multi, ChangeText, Callback})",
+        "Label": "Section:Label({Text, Color})"
+    },
+    "colorScheme": {
+        "primary": "rgb(27, 25, 27)",
+        "secondary": "rgb(42, 40, 42)",
+        "tertiary": "rgb(74, 73, 74)",
+        "divider": "rgb(46, 45, 46)",
+        "accent": "rgb(100, 190, 31)",
+        "accentDarker": "rgb(87, 167, 26)",
+        "text": "rgb(211, 211, 211)",
+        "textSecondary": "rgb(122, 122, 122)"
+    },
+    "tags": ["ui-library", "roblox", "minimalist", "dark"]
+}

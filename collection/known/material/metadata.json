@@ -1,0 +1,54 @@
+{
+    "id": "material",
+    "name": "Material",
+    "author": {
+        "name": "Kinlei",
+        "url": "https://github.com/Kinlei"
+    },
+    "source": "https://github.com/Kinlei/MaterialLua",
+    "preview": "",
+    "description": "Material design library for Roblox with multiple themes and styles. Includes Button, Toggle, Slider, Dropdown, ChipSet, DataTable, ColorPicker, TextField, and Banner widgets.",
+    "widgets": [
+        "Button",
+        "Toggle",
+        "Slider",
+        "Dropdown",
+        "ChipSet",
+        "DataTable",
+        "ColorPicker",
+        "TextField",
+        "Banner"
+    ],
+    "apiSignature": {
+        "Load": "Material:Load({Title, Style, SizeX, SizeY, Theme, ColorOverrides})",
+        "New": "UI:New({Title, ImageID})",
+        "Banner": "Page:Banner({Text, Options})",
+        "Button": "Page:Button({Text, Callback, Menu})",
+        "Toggle": "Page:Toggle({Text, Callback, Enabled, Menu})",
+        "Slider": "Page:Slider({Text, Callback, Min, Max, Def, Menu})",
+        "Dropdown": "Page:Dropdown({Text, Callback, Options, Menu})",
+        "ChipSet": "Page:ChipSet({Callback, Options})",
+        "DataTable": "Page:DataTable({Callback, Options})",
+        "ColorPicker": "Page:ColorPicker({Text, Default, Callback, Menu})",
+        "TextField": "Page:TextField({Text, Type, Callback, Menu})"
+    },
+    "colorScheme": {
+        "light": {
+            "mainFrame": "rgb(255,255,255)",
+            "navBar": "rgb(124,37,255)",
+            "content": "rgb(124,37,255)",
+            "button": "rgb(124,37,255)",
+            "accent": "rgb(255,255,255)"
+        },
+        "dark": {
+            "mainFrame": "rgb(30,30,30)",
+            "navBar": "rgb(55,55,55)",
+            "content": "rgb(85,85,85)",
+            "button": "rgb(85,85,85)",
+            "accent": "rgb(255,255,255)"
+        }
+    },
+    "themes": ["Light", "Dark", "Mocha", "Aqua", "Jester"],
+    "styles": [1, 2, 3],
+    "tags": ["ui-library", "roblox", "material-design"]
+}

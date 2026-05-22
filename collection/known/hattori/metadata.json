@@ -1,0 +1,41 @@
+{
+    "id": "hattori",
+    "name": "Hattori",
+    "author": {
+        "name": "xMee",
+        "url": "https://v3rmillion.net/member.php?action=profile&uid=1072327"
+    },
+    "source": "https://github.com/GhostDuckyy/UI-Libraries/tree/main/Hattori/V4",
+    "preview": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgur.com%2F2oQ5vmT.png",
+    "description": "Roblox UI library created by xMee featuring Window, Tab, Label, Button, Toggle, Slider, Textbox, Colorpicker, and Dropdown widgets with a clean dark theme design.",
+    "widgets": [
+        "Window",
+        "Tab",
+        "Label",
+        "Button",
+        "Toggle",
+        "Slider",
+        "Textbox",
+        "Colorpicker",
+        "Dropdown"
+    ],
+    "apiSignature": {
+        "Window": "Hattori:window(name)",
+        "Tab": "Window:newTab(name)",
+        "Label": "Tab:label(name, text)",
+        "Button": "Tab:button(name, callback)",
+        "Toggle": "Tab:toggle(name, options, useBind, bindOptions, callback)",
+        "Slider": "Tab:slider(name, options, sliderCallback, useToggle, toggleOptions)",
+        "Textbox": "Tab:textbox(name, options, callback)",
+        "Colorpicker": "Tab:colorSelector(name, options, callback)",
+        "Dropdown": "Tab:dropdown(name, useToggles, options, callback)"
+    },
+    "colorScheme": {
+        "background": "rgb(15, 15, 15)",
+        "frame": "rgb(40, 40, 40)",
+        "border": "rgb(50, 50, 50)",
+        "accent": "rgb(200, 58, 75)",
+        "text": "rgb(250, 250, 250)"
+    },
+    "tags": ["ui-library", "roblox", "dark-theme"]
+}

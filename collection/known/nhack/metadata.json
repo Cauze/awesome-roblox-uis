@@ -1,0 +1,136 @@
+{
+    "id": "nhack",
+    "name": "Nhack",
+    "author": {
+        "name": "samet",
+        "url": "https://github.com/sametexe001"
+    },
+    "source": "https://raw.githubusercontent.com/sametexe001/sametlibs/main/nhack/Library.lua",
+    "preview": "",
+    "description": "Premium UI library with modern design, featuring draggable windows, tabs, sections, and various widget types including buttons, toggles, sliders, dropdowns, colorpickers, keybinds, and text boxes.",
+    "widgets": {
+        "Window": {
+            "description": "Main container for UI, created via Library:Window()",
+            "params": {
+                "Title": "string - Window title",
+                "ButtonName": "string - Dock button text"
+            }
+        },
+        "Tab": {
+            "description": "Tab page for organizing content, created via Window:Tab()",
+            "params": {
+                "Name": "string - Tab name"
+            }
+        },
+        "Section": {
+            "description": "Section for grouping widgets, created via Tab:Section()",
+            "params": {
+                "Name": "string - Section name",
+                "Side": "number - 1 (left) or 2 (right) column"
+            }
+        },
+        "Button": {
+            "description": "Clickable button widget",
+            "params": {
+                "Name": "string - Button label",
+                "Callback": "function - Called on click"
+            }
+        },
+        "Toggle": {
+            "description": "Toggle switch widget with optional risky flag",
+            "params": {
+                "Name": "string - Toggle label",
+                "Default": "boolean - Initial state",
+                "Flag": "string - Config flag name",
+                "Risky": "boolean - Shows red text when risky",
+                "Callback": "function - Called with boolean state"
+            }
+        },
+        "Slider": {
+            "description": "Slider widget for numeric values",
+            "params": {
+                "Name": "string - Slider label",
+                "Min": "number - Minimum value",
+                "Max": "number - Maximum value",
+                "Default": "number - Initial value",
+                "Suffix": "string - Value suffix (e.g., '%')",
+                "Decimals": "number - Decimal places",
+                "Flag": "string - Config flag name",
+                "Callback": "function - Called with numeric value"
+            }
+        },
+        "Dropdown": {
+            "description": "Dropdown selection widget",
+            "params": {
+                "Name": "string - Dropdown label",
+                "Items": "table - Array of option strings",
+                "Default": "string - Initial selection",
+                "Multi": "boolean - Allow multiple selections",
+                "Flag": "string - Config flag name",
+                "Callback": "function - Called with selected value(s)"
+            }
+        },
+        "Colorpicker": {
+            "description": "Color picker widget",
+            "params": {
+                "Name": "string - Picker label (or use on Label)",
+                "Default": "Color3 - Initial color",
+                "Alpha": "number - Initial alpha (0-1)",
+                "Flag": "string - Config flag name",
+                "Callback": "function - Called with color and alpha"
+            }
+        },
+        "Keybind": {
+            "description": "Keybind widget for binding keys",
+            "params": {
+                "Name": "string - Keybind label (or use on Label)",
+                "Default": "Enum.KeyCode - Initial key",
+                "Mode": "string - 'Toggle', 'Hold', or 'OneShot'",
+                "Flag": "string - Config flag name",
+                "Callback": "function - Called with key and mode"
+            }
+        },
+        "Label": {
+            "description": "Text label widget that can have sub-widgets",
+            "params": {
+                "Name": "string - Label text",
+                "Flag": "string - Config flag name"
+            },
+            "sub_widgets": ["Colorpicker", "Keybind"]
+        },
+        "Textbox": {
+            "description": "Text input widget",
+            "params": {
+                "Name": "string - Textbox label",
+                "Default": "string - Initial text",
+                "Placeholder": "string - Placeholder text",
+                "Numeric": "boolean - Only allow numbers",
+                "Finished": "boolean - Callback on enter only",
+                "Flag": "string - Config flag name",
+                "Callback": "function - Called with text value"
+            }
+        }
+    },
+    "extra_widgets": {
+        "Watermark": {
+            "description": "Draggable watermark display with FPS counter",
+            "usage": "Library:Watermark({Text = 'My UI'})",
+            "methods": ["SetText", "SetVisibility", "Center", "SetDynamicTextProvider"]
+        },
+        "KeybindList": {
+            "description": "Displays bound keybinds in a list",
+            "usage": "Library:KeybindList()",
+            "methods": ["Add(key, name, mode)", "SetVisibility", "Center", "SetText"]
+        }
+    },
+    "features": [
+        "Draggable and resizable windows",
+        "Multi-column section layout",
+        "Config save/load system",
+        "Theme system with presets",
+        "Background effects (blur, snow)",
+        "Tooltip support on widgets",
+        "Settings panel per toggle",
+        "UI toggle keybind (default X)"
+    ]
+}

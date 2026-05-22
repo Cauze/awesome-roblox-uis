@@ -1,0 +1,59 @@
+{
+    "id": "exodus",
+    "name": "Exodus",
+    "author": {
+        "name": "WetCheezit",
+        "url": "https://github.com/WetCheezit"
+    },
+    "source": "https://github.com/WetCheezit/UI-Libs/blob/main/Exodus.lua",
+    "preview": "",
+    "description": "Lightweight rendering-based UI library with Window, Tab, Section, Label, Button, Toggle, Slider, Dropdown, Colorpicker, Keybind, Box, and List widgets. Features drag-to-move windows, theme system, config save/load, and notifications.",
+    "widgets": [
+        "Window",
+        "Tab",
+        "Section",
+        "SubTab",
+        "MultiSection",
+        "Label",
+        "Button",
+        "Toggle",
+        "Slider",
+        "Dropdown",
+        "Colorpicker",
+        "Keybind",
+        "Box",
+        "List",
+        "Separator"
+    ],
+    "apiSignature": {
+        "Window": "library:Window({Title, Size, Position})",
+        "Tab": "Window:Tab({Name, Side})",
+        "SubTab": "Tab:SubTab({Name})",
+        "Section": "Tab:Section({Name, Side})",
+        "MultiSection": "Tab:MultiSection({Side, Sections})",
+        "Label": "Section:Label({Name})",
+        "Button": "Section:Button({Name, Flag, Callback})",
+        "Toggle": "Section:Toggle({Name, Flag, State, Callback})",
+        "Slider": "Section:Slider({Name, Flag, Value, Min, Max, Float, Callback})",
+        "Dropdown": "Section:Dropdown({Name, Flag, Values, Value, Callback})",
+        "Colorpicker": "Section:Colorpicker({Name, Flag, Color, Alpha, Callback})",
+        "Keybind": "Section:Keybind({Name, Flag, Key, Mode, Hold, Callback})",
+        "Box": "Section:Box({Name, Flag, Value, Placeholder, Callback})",
+        "List": "Section:List({Name, Flag, Values, Value, Callback})",
+        "Separator": "Section:Separator({Name})"
+    },
+    "colorScheme": {
+        "accent": "rgb(113, 93, 133)",
+        "window_background": "rgb(30, 30, 30)",
+        "window_border": "rgb(65, 65, 65)",
+        "text": "rgb(210, 210, 210)",
+        "disabled_text": "rgb(110, 110, 110)",
+        "tab_background": "rgb(25, 25, 25)",
+        "tab_border": "rgb(45, 45, 45)",
+        "section_background": "rgb(30, 30, 30)",
+        "section_border": "rgb(45, 45, 45)",
+        "object_background": "rgb(25, 25, 25)",
+        "object_border": "rgb(45, 45, 45)"
+    },
+    "tags": ["ui-library", "roblox", "rendering-based"]
+}
