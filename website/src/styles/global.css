@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+	--font-sans: "Space Grotesk", "Segoe UI", sans-serif;
+}
+
+@layer base {
+	:root {
+		--font-sans: "Space Grotesk", "Segoe UI", sans-serif;
+	}
+}
