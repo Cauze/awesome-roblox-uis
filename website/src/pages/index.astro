@@ -10,15 +10,15 @@ type UIEntry = {
 	preview: string;
 };
 
-const knownDir = path.resolve(process.cwd(), "../collection/known");
-const dirs = await readdir(knownDir, { withFileTypes: true });
+const collectionDir = path.resolve(process.cwd(), "../collection");
+const dirs = await readdir(collectionDir, { withFileTypes: true });
 
 const entries: UIEntry[] = (
 	await Promise.all(
 		dirs
 			.filter((dirent) => dirent.isDirectory())
 			.map(async (dirent) => {
-				const metadataPath = path.join(knownDir, dirent.name, "metadata.json");
+				const metadataPath = path.join(collectionDir, dirent.name, "metadata.json");
 				const raw = await readFile(metadataPath, "utf-8");
 				return JSON.parse(raw) as UIEntry;
 			}),
@@ -205,14 +205,14 @@ const repoRawBase = "https://raw.githubusercontent.com/Cauze/awesome-roblox-uis/
 								)}
 								<div class="links">
 									<a
-										href={`${repoRawBase}/collection/known/${entry.id}/source.lua`}
+										href={`${repoRawBase}/collection/${entry.id}/source.lua`}
 										target="_blank"
 										rel="noreferrer"
 									>
 										Source
 									</a>
 									<a
-										href={`${repoRawBase}/collection/known/${entry.id}/example.lua`}
+										href={`${repoRawBase}/collection/${entry.id}/example.lua`}
 										target="_blank"
 										rel="noreferrer"
 									>
