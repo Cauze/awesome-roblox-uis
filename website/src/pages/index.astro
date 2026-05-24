@@ -69,16 +69,19 @@ const repoRawBase = "https://raw.githubusercontent.com/Cauze/awesome-roblox-uis/
 							data-name={entry.name.toLowerCase()}
 							data-author={entry.author ? entry.author.name.toLowerCase() : ''}
 						>
-							<figure class="rounded-t-xl relative">
+							<figure class="rounded-t-xl relative h-40 overflow-hidden">
 								{entry.preview ? (
-									<img src={entry.preview} alt={`${entry.name} preview`} class="w-full h-40 object-cover" loading="lazy" />
+									<>
+										<div class="absolute inset-0" style={`background-image: url('${entry.preview}'); background-size: cover; background-position: center; filter: blur(8px);`}></div>
+										<img src={entry.preview} alt={`${entry.name} preview`} class="absolute inset-0 m-auto max-w-full max-h-full object-contain" loading="lazy" />
+									</>
 								) : (
-									<div class="w-full h-40 bg-base-300 flex items-center justify-center text-base-content/40">
+									<div class="w-full h-full flex items-center justify-center text-base-content/40">
 										<span class="text-sm font-medium">No preview</span>
 									</div>
 								)}
 								{entry.author && (
-									<a href={entry.author.url} target="_blank" rel="noreferrer" class="badge badge-neutral bg-neutral/70 border-neutral/50 absolute top-3 right-3 text-xs no-underline hover:bg-neutral/80">
+									<a href={entry.author.url} target="_blank" rel="noreferrer" class="badge badge-neutral bg-neutral/70 border-neutral/50 absolute top-3 right-3 text-xs no-underline hover:bg-neutral/80 z-20">
 										{entry.author.name}
 									</a>
 								)}
@@ -86,11 +89,6 @@ const repoRawBase = "https://raw.githubusercontent.com/Cauze/awesome-roblox-uis/
 							<div class="card-body p-4">
 								<div class="flex items-center justify-between gap-2">
 									<a class="card-title text-lg font-semibold hover:underline" href={entry.source} target="_blank" rel="noreferrer">{entry.name}</a>
-									<a href={entry.source} target="_blank" rel="noreferrer" class="text-primary opacity-80 hover:opacity-100" aria-label={`Open ${entry.name} source`}>
-										<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-										</svg>
-									</a>
 								</div>
 								<div class="flex gap-3 mt-1 text-sm">
 									<a href={`${repoRawBase}/collection/${entry.id}/source.lua`} target="_blank" rel="noreferrer" class="text-primary hover:underline">Source</a>
