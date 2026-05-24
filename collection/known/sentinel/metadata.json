@@ -1,0 +1,10 @@
+{
+    "id": "sentinel",
+    "name": "Sentinel",
+    "author": {
+        "name": "astraln",
+        "url": "https://github.com/astraln/SentinelUILIB"
+    },
+    "source": "https://raw.githubusercontent.com/astraln/SentinelUILIB/main/UI.lua",
+    "preview": "https://github.com/Eazvy/UILibs/raw/main/Librarys/Sentinel/Screenshot%202023-02-24%20145002.png"
+}

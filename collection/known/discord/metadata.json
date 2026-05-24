@@ -1,108 +1,10 @@
 {
     "id": "discord",
     "name": "Discord Lib",
-    "description": "A faithful recreation of the Discord UI with server/channel structure, featuring Window, Server, Channel, Button, Toggle, Slider, Dropdown, Colorpicker, Textbox, Label, Bind, and Notification widgets.",
     "author": {
         "name": "dawid-scripts",
         "url": "https://github.com/dawid-scripts"
     },
     "source": "https://github.com/dawid-scripts/UI-Libs/blob/main/discord%20lib.txt",
-    "preview": {
-        "url": "https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord-preview.png"
-    },
-    "widgets": [
-        {
-            "type": "Window",
-            "method": "DiscordLib:Window(text)",
-            "description": "Creates the main Discord-style window with server sidebar",
-            "returns": "ServerHold"
-        },
-        {
-            "type": "Server",
-            "method": "ServerHold:Server(text, img)",
-            "description": "Creates a server button in the sidebar",
-            "returns": "ChannelHold"
-        },
-        {
-            "type": "Channel",
-            "method": "ChannelHold:Channel(text)",
-            "description": "Creates a channel within a server",
-            "returns": "ChannelContent"
-        },
-        {
-            "type": "Button",
-            "method": "ChannelContent:Button(text, callback)",
-            "description": "Creates a clickable button widget"
-        },
-        {
-            "type": "Toggle",
-            "method": "ChannelContent:Toggle(text, default, callback)",
-            "description": "Creates a toggle switch with on/off states",
-            "params": ["default: boolean"]
-        },
-        {
-            "type": "Slider",
-            "method": "ChannelContent:Slider(text, min, max, start, callback)",
-            "description": "Creates a slider with value display bubble",
-            "params": ["min: number", "max: number", "start: number"],
-            "returns": "SliderFunc with :Change(value)"
-        },
-        {
-            "type": "Dropdown",
-            "method": "ChannelContent:Dropdown(text, list, callback)",
-            "description": "Creates a dropdown selector",
-            "params": ["list: table of options"],
-            "returns": "DropFunc with :Clear() and :Add(text)"
-        },
-        {
-            "type": "Colorpicker",
-            "method": "ChannelContent:Colorpicker(text, preset, callback)",
-            "description": "Creates a color picker with hue/saturation gradients",
-            "params": ["preset: Color3"]
-        },
-        {
-            "type": "Textbox",
-            "method": "ChannelContent:Textbox(text, placetext, disapper, callback)",
-            "description": "Creates a text input field",
-            "params": ["placetext: string", "disapper: boolean"]
-        },
-        {
-            "type": "Label",
-            "method": "ChannelContent:Label(text)",
-            "description": "Creates a static text label"
-        },
-        {
-            "type": "Bind",
-            "method": "ChannelContent:Bind(text, presetbind, callback)",
-            "description": "Creates a keybind picker",
-            "params": ["presetbind: Enum.KeyCode"]
-        },
-        {
-            "type": "Seperator",
-            "method": "ChannelContent:Seperator()",
-            "description": "Creates a visual separator line"
-        },
-        {
-            "type": "Notification",
-            "method": "DiscordLib:Notification(titletext, desctext, btntext)",
-            "description": "Creates a modal notification dialog"
-        }
-    ],
-    "style": {
-        "theme": "dark",
-        "accentColor": "rgb(114, 137, 228)",
-        "backgroundColor": "rgb(54, 57, 63)",
-        "textColor": "rgb(255, 255, 255)",
-        "borderRadius": 4
-    },
-    "features": [
-        "Draggable windows via top bar",
-        "Server sidebar with icons",
-        "Channel navigation within servers",
-        "User profile settings panel",
-        "Avatar and username editing",
-        "Minimize/close buttons",
-        "RightControl keybind toggle",
-        "Smooth tween animations"
-    ]
+    "preview": "https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord-preview.png"
 }

@@ -6,27 +6,5 @@
         "url": "https://github.com/sametexe001"
     },
     "source": "https://raw.githubusercontent.com/sametexe001/sametlibs/main/lds13/Library.lua",
-    "preview": "",
-    "description": "Premium Roblox UI library with modern design and extensive widget support",
-    "widgets": [
-        "Window",
-        "Tab/Page",
-        "Section",
-        "Button",
-        "Toggle",
-        "Slider",
-        "Dropdown",
-        "Colorpicker",
-        "Keybind",
-        "Label",
-        "Textbox"
-    ],
-    "features": [
-        "Built-in config system",
-        "Theme support",
-        "Mobile support",
-        "Draggable and resizable windows",
-        "Fading animations",
-        "Settings page with config management"
-    ]
+    "preview": ""
 }

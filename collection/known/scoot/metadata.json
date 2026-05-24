@@ -1,10 +1,10 @@
 {
-    "id":  "scoot",
-    "name":  "Scoot",
-    "author":  {
-                   "name":  "samet",
-                   "url":  "https://github.com/sametexe001"
-               },
-    "source":  "https://github.com/sametexe001/sametlibs/tree/main/Scoot",
-    "preview":  "https://fent.pics/htuaywq9.png"
+    "id": "scoot",
+    "name": "Scoot",
+    "author": {
+        "name": "samet",
+        "url": "https://github.com/sametexe001"
+    },
+    "source": "https://github.com/sametexe001/sametlibs/tree/main/Scoot",
+    "preview": "https://fent.pics/htuaywq9.png"
 }

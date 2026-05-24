@@ -1,10 +1,10 @@
 {
-    "id":  "rayfield",
-    "name":  "Rayfield",
-    "author":  {
-                   "name":  "Sirius",
-                   "url":  "https://github.com/SiriusSoftwareLtd"
-               },
-    "source":  "https://github.com/SiriusSoftwareLtd/Rayfield",
-    "preview":  "https://fent.pics/xbbypf9a.png"
+    "id": "rayfield",
+    "name": "Rayfield",
+    "author": {
+        "name": "Sirius",
+        "url": "https://github.com/SiriusSoftwareLtd"
+    },
+    "source": "https://github.com/SiriusSoftwareLtd/Rayfield",
+    "preview": "https://fent.pics/xbbypf9a.png"
 }

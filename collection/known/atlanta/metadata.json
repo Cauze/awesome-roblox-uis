@@ -1,10 +1,10 @@
 {
-    "id":  "atlanta",
-    "name":  "Atlanta",
-    "author":  {
-                   "name":  "i77lhm",
-                   "url":  "https://github.com/i77lhm"
-               },
-    "source":  "https://github.com/i77lhm/Libraries/tree/main/Atlanta",
-    "preview":  "https://fent.pics/4bcdymq1.png"
+    "id": "atlanta",
+    "name": "Atlanta",
+    "author": {
+        "name": "i77lhm",
+        "url": "https://github.com/i77lhm"
+    },
+    "source": "https://github.com/i77lhm/Libraries/tree/main/Atlanta",
+    "preview": "https://fent.pics/4bcdymq1.png"
 }

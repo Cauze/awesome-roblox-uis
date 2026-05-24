@@ -1,10 +1,10 @@
 {
-    "id":  "thugsense",
-    "name":  "Thugsense",
-    "author":  {
-                   "name":  "samet",
-                   "url":  "https://github.com/sametexe001"
-               },
-    "source":  "https://github.com/sametexe001/sametlibs/tree/main/Thugsense",
-    "preview":  "https://fent.pics/xmcpejfw.png"
+    "id": "thugsense",
+    "name": "Thugsense",
+    "author": {
+        "name": "samet",
+        "url": "https://github.com/sametexe001"
+    },
+    "source": "https://github.com/sametexe001/sametlibs/tree/main/Thugsense",
+    "preview": "https://fent.pics/xmcpejfw.png"
 }

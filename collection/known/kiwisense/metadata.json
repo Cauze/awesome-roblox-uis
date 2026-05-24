@@ -1,10 +1,10 @@
 {
-    "id":  "kiwisense",
-    "name":  "Kiwisense",
-    "author":  {
-                   "name":  "samet",
-                   "url":  "https://github.com/sametexe001"
-               },
-    "source":  "https://github.com/sametexe001/sametlibs/tree/main/Kiwisense",
-    "preview":  "https://fent.pics/4p7yccqd.png"
+    "id": "kiwisense",
+    "name": "Kiwisense",
+    "author": {
+        "name": "samet",
+        "url": "https://github.com/sametexe001"
+    },
+    "source": "https://github.com/sametexe001/sametlibs/tree/main/Kiwisense",
+    "preview": "https://fent.pics/4p7yccqd.png"
 }

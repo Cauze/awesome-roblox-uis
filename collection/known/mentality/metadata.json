@@ -1,10 +1,10 @@
 {
-    "id":  "mentality",
-    "name":  "Mentality",
-    "author":  {
-                   "name":  "samet",
-                   "url":  "https://github.com/sametexe001"
-               },
-    "source":  "https://github.com/sametexe001/sametlibs/tree/main/Mentality",
-    "preview":  "https://fent.pics/gaoc2vhe.png"
+    "id": "mentality",
+    "name": "Mentality",
+    "author": {
+        "name": "samet",
+        "url": "https://github.com/sametexe001"
+    },
+    "source": "https://github.com/sametexe001/sametlibs/tree/main/Mentality",
+    "preview": "https://fent.pics/gaoc2vhe.png"
 }

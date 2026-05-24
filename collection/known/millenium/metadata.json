@@ -6,37 +6,5 @@
         "url": "https://github.com/i77lhm"
     },
     "source": "https://github.com/i77lhm/Libraries/tree/main/Millenium",
-    "preview": "",
-    "documentation": "https://github.com/i77lhm/Libraries/tree/main/Millenium",
-    "description": "A feature-rich Roblox UI library with column-based layout system, multi-section tabs, and extensive widget customization including toggles, sliders, dropdowns, keybinds, colorpickers, and more.",
-    "widgets": [
-        "Window",
-        "Tab",
-        "Seperator",
-        "Column",
-        "SubTab",
-        "Section",
-        "Toggle",
-        "Slider",
-        "Dropdown",
-        "Keybind",
-        "ColorPicker",
-        "Label",
-        "Button"
-    ],
-    "features": [
-        "Column-based layout system",
-        "Multi-section tabbed interface",
-        "Sub-sections for toggle settings",
-        "Color picker widgets",
-        "Keybind capture",
-        "Multi-select dropdowns",
-        "Slider with custom intervals",
-        "Config save/load system",
-        "Theme support",
-        "Drag and resize functionality",
-        "Rich text labels with info tooltips"
-    ],
-    "api_style": "method_chaining",
-    "load_method": "loadstring + HttpGet"
+    "preview": ""
 }

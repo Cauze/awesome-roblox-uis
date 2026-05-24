@@ -1,0 +1,10 @@
+{
+    "id": "coastified",
+    "name": "Coastified",
+    "author": {
+        "name": "laagginq",
+        "url": "https://github.com/laagginq"
+    },
+    "source": "https://raw.githubusercontent.com/laagginq/ui-libraries/main/coastified/src.lua",
+    "preview": "https://github.com/Eazvy/UILibs/raw/main/Librarys/Coastified/Screenshot%202022-07-12%20214243.png"
+}

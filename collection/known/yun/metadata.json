@@ -1,0 +1,10 @@
+{
+    "id": "yun",
+    "name": "Yun",
+    "author": {
+        "name": "Eazvy",
+        "url": "https://github.com/Eazvy"
+    },
+    "source": "https://github.com/Eazvy/UILibs",
+    "preview": "https://raw.githubusercontent.com/Eazvy/UILibs/main/Librarys/Yun/YunPreview.png"
+}

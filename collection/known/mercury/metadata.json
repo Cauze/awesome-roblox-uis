@@ -6,42 +6,5 @@
         "url": "https://github.com/deeeity"
     },
     "source": "https://github.com/deeeity/mercury-lib",
-    "preview": "https://raw.githubusercontent.com/deeeity/mercury-lib/main/preview.png",
-    "description": "Feature-rich Roblox UI library with modern browser-like navigation. Includes Window, Tab, Button, Toggle, Slider, Dropdown, Textbox, ColorPicker, Keybind, Notification, Prompt, and Credit widgets.",
-    "widgets": [
-        "Window",
-        "Tab",
-        "Button",
-        "Toggle",
-        "Slider",
-        "Dropdown",
-        "Textbox",
-        "ColorPicker",
-        "Keybind",
-        "Notification",
-        "Prompt",
-        "Credit"
-    ],
-    "apiSignature": {
-        "Window": "Mercury:Create{Name, Size, Theme, Link}",
-        "Tab": "GUI:Tab{Name, Icon}",
-        "Button": "Tab:Button{Name, Description, Callback}",
-        "Toggle": "Tab:Toggle{Name, StartingState, Description, Callback}",
-        "Slider": "Tab:Slider{Name, Default, Min, Max, Callback}",
-        "Dropdown": "Tab:Dropdown{Name, StartingText, Items, Callback}",
-        "Textbox": "Tab:Textbox{Name, Callback}",
-        "ColorPicker": "Tab:ColorPicker{Style, Callback}",
-        "Keybind": "Tab:Keybind{Name, Keybind, Description, Callback}",
-        "Notification": "GUI:Notification{Title, Text, Duration, Callback}",
-        "Prompt": "GUI:Prompt{Followup, Title, Text, Buttons}",
-        "Credit": "GUI:Credit{Name, Description, V3rm, Discord, Github}"
-    },
-    "colorScheme": {
-        "background": "rgb(30, 30, 35)",
-        "secondary": "rgb(50, 50, 55)",
-        "tertiary": "rgb(70, 130, 180)",
-        "text": "rgb(255, 255, 255)",
-        "textSecondary": "rgb(172, 172, 172)"
-    },
-    "tags": ["ui-library", "roblox", "featured"]
+    "preview": "https://raw.githubusercontent.com/deeeity/mercury-lib/main/preview.png"
 }

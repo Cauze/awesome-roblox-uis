@@ -5,41 +5,6 @@
         "name": "xHeptc",
         "url": "https://v3rmillion.net/member.php?action=profile&uid=1347047"
     },
-    "source": "https://github.com/GhostDuckyy/UI-Libraries/tree/main/Luxware",
-    "preview": "https://camo.githubusercontent.com/c599e3fa4087e44988525fd56616e1efca7c43489680c25d7549e0d0a8355244/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f643872586d387733634f6f2f302e6a7067",
-    "description": "Roblox UI library with modern design. Includes Window, Tab, Section, Button, Toggle, Slider, Dropdown, Keybind, TextBox, Label, and Credit widgets.",
-    "widgets": [
-        "Window",
-        "Tab",
-        "Section",
-        "Button",
-        "Toggle",
-        "Slider",
-        "Dropdown",
-        "Keybind",
-        "TextBox",
-        "Label",
-        "Credit"
-    ],
-    "apiSignature": {
-        "Window": "Lux:CreateWindow(libName, logoId)",
-        "Tab": "Tab:Tab(tabText, tabId)",
-        "Section": "Tab:Section(sectionText)",
-        "Button": "Section:Button(btnText, callback)",
-        "Toggle": "Section:Toggle(toggInfo, callback)",
-        "Slider": "Section:Slider(slidInfo, minvalue, maxvalue, callback)",
-        "Dropdown": "Section:DropDown(dropInfo, list, callback)",
-        "KeyBind": "Section:KeyBind(keyInfo, first, callback)",
-        "TextBox": "Section:TextBox(infbix, textPlace, callback)",
-        "Label": "Section:Label(labelInfo)",
-        "Credit": "Section:Credit(creditWho)"
-    },
-    "colorScheme": {
-        "background": "rgb(21, 21, 21)",
-        "main": "rgb(30, 30, 30)",
-        "element": "rgb(18, 18, 18)",
-        "accent": "rgb(153, 255, 238)",
-        "text": "rgb(255, 255, 255)"
-    },
-    "tags": ["ui-library", "roblox"]
+    "source": "https://github.com/xHeptc/Luxware-UI-Library",
+    "preview": "https://raw.githubusercontent.com/Eazvy/UILibs/main/Librarys/Luxware/Screenshot%202022-11-29%20131542.png"
 }

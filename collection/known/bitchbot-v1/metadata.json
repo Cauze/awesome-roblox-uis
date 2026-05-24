@@ -1,10 +1,10 @@
 {
-    "id":  "bitchbot-v1",
-    "name":  "Bitchbot V1",
-    "author":  {
-                   "name":  "samet",
-                   "url":  "https://github.com/sametexe001"
-               },
-    "source":  "https://github.com/sametexe001/sametlibs/tree/main/Bitchbot%20V1",
-    "preview":  "https://fent.pics/bx2u18nf.png"
+    "id": "bitchbot-v1",
+    "name": "Bitchbot V1",
+    "author": {
+        "name": "samet",
+        "url": "https://github.com/sametexe001"
+    },
+    "source": "https://github.com/sametexe001/sametlibs/tree/main/Bitchbot%20V1",
+    "preview": "https://fent.pics/bx2u18nf.png"
 }

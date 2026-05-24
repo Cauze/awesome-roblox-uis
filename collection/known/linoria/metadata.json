@@ -1,10 +1,10 @@
 {
-    "id":  "linoria",
-    "name":  "Linoria",
-    "author":  {
-                   "name":  "Inori",
-                   "url":  "https://github.com/violin-suzutsuki"
-               },
-    "source":  "https://github.com/violin-suzutsuki/LinoriaLib",
-    "preview":  "https://fent.pics/r5fl52kf.png"
+    "id": "linoria",
+    "name": "Linoria",
+    "author": {
+        "name": "Inori",
+        "url": "https://github.com/violin-suzutsuki"
+    },
+    "source": "https://github.com/violin-suzutsuki/LinoriaLib",
+    "preview": "https://fent.pics/r5fl52kf.png"
 }

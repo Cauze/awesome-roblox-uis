@@ -1,10 +1,10 @@
 {
-    "id":  "arcane",
-    "name":  "Arcane",
-    "author":  {
-                   "name":  "samet",
-                   "url":  "https://github.com/sametexe001"
-               },
-    "source":  "https://github.com/sametexe001/sametlibs/tree/main/Arcane",
-    "preview":  "https://fent.pics/xvrqqzaa.png"
+    "id": "arcane",
+    "name": "Arcane",
+    "author": {
+        "name": "samet",
+        "url": "https://github.com/sametexe001"
+    },
+    "source": "https://github.com/sametexe001/sametlibs/tree/main/Arcane",
+    "preview": "https://fent.pics/xvrqqzaa.png"
 }

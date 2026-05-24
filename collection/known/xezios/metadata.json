@@ -1,106 +1,10 @@
 {
     "id": "xezios",
     "name": "Xezios",
-    "description": "A feature-rich Roblox UI library with a modern dark theme, featuring support for tabs, sections, toggles, sliders, dropdowns, keybinds, color pickers, textboxes, and more. Includes config saving/loading and notifications.",
     "author": {
         "name": "i77lhm",
         "url": "https://github.com/i77lhm"
     },
     "source": "https://github.com/i77lhm/Libraries/tree/main/Xezios",
-    "preview": "https://github.com/i77lhm/Libraries/raw/main/Images/Xezios.png",
-    "loadstring": "https://raw.githubusercontent.com/i77lhm/Libraries/refs/heads/main/Xezios/Library.lua",
-    "widgets": [
-        "Window",
-        "Tab",
-        "Section",
-        "Button",
-        "Toggle",
-        "Slider",
-        "Dropdown",
-        "Keybind",
-        "Colorpicker",
-        "Textbox",
-        "Label",
-        "Notifications"
-    ],
-    "api": {
-        "Library:Window": {
-            "properties": ["name", "Prefix", "Suffix", "Size"],
-            "returns": "Window"
-        },
-        "Window:Tab": {
-            "properties": ["Name", "Icon"],
-            "returns": "Tab"
-        },
-        "Tab:Section": {
-            "properties": ["Name", "Side"],
-            "returns": "Section"
-        },
-        "Section:Toggle": {
-            "properties": ["Name", "Flag", "Default", "Callback"],
-            "returns": "Toggle"
-        },
-        "Section:Slider": {
-            "properties": ["Name", "Suffix", "Flag", "Callback", "Min", "Max", "Decimal", "Default"],
-            "returns": "Slider"
-        },
-        "Section:Dropdown": {
-            "properties": ["Name", "Flag", "Options", "Callback", "Multi", "Scrolling", "Default"],
-            "returns": "Dropdown"
-        },
-        "Section:Keybind": {
-            "properties": ["Name", "Flag", "Callback", "Key", "Mode", "Default"],
-            "returns": "Keybind"
-        },
-        "Section:Colorpicker": {
-            "properties": ["Name", "Flag", "Callback", "Color", "Alpha"],
-            "returns": "Colorpicker"
-        },
-        "Section:Textbox": {
-            "properties": ["Name", "PlaceHolder", "Default", "Flag", "Callback"],
-            "returns": "Textbox"
-        },
-        "Section:Button": {
-            "properties": ["Name", "Callback"],
-            "returns": "Button"
-        },
-        "Section:Label": {
-            "properties": ["Name"],
-            "returns": "Label"
-        },
-        "Library:Configs": {
-            "properties": ["Window"],
-            "returns": "void"
-        },
-        "Notifications:Create": {
-            "properties": ["Name", "Lifetime"],
-            "returns": "void"
-        }
-    },
-    "features": [
-        "Draggable and resizable window",
-        "Tab-based navigation with icons",
-        "Left/Right section layout within tabs",
-        "Toggle with integrated colorpicker and keybind support",
-        "Slider with customizable min/max/decimal values",
-        "Dropdown with single and multi-select modes",
-        "Keybind with Hold/Toggle/Always modes",
-        "Color picker with HSV editing and hex/rgb input",
-        "Text input with placeholder text",
-        "Config saving/loading system",
-        "Theme customization via colorpickers",
-        "Notification system with fade animations",
-        "Modern dark theme with accent colors",
-        "Glow effects on window"
-    ],
-    "themes": {
-        "accent": [108, 109, 152],
-        "window_outline": [0, 0, 0],
-        "inline": [25, 27, 27],
-        "background": [17, 19, 19],
-        "visible_backgrounds": [20, 23, 22],
-        "text_color": [221, 223, 222],
-        "glow": [0, 0, 0],
-        "deselected": [89, 91, 91]
-    }
+    "preview": "https://github.com/i77lhm/Libraries/raw/main/Images/Xezios.png"
 }

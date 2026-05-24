@@ -1,10 +1,10 @@
 {
-    "id":  "fluent",
-    "name":  "Fluent",
-    "author":  {
-                   "name":  "dawid",
-                   "url":  "https://github.com/dawid-scripts"
-               },
-    "source":  "https://github.com/dawid-scripts/Fluent",
-    "preview":  "https://fent.pics/5jhsra2x.png"
+    "id": "fluent",
+    "name": "Fluent",
+    "author": {
+        "name": "dawid",
+        "url": "https://github.com/dawid-scripts"
+    },
+    "source": "https://github.com/dawid-scripts/Fluent",
+    "preview": "https://fent.pics/5jhsra2x.png"
 }

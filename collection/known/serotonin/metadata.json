@@ -1,10 +1,10 @@
 {
-    "id":  "serotonin",
-    "name":  "Serotonin",
-    "author":  {
-                   "name":  "samet",
-                   "url":  "https://github.com/sametexe001"
-               },
-    "source":  "https://github.com/sametexe001/sametlibs/tree/main/Serotonin",
-    "preview":  "https://fent.pics/ggnnow8s.png"
+    "id": "serotonin",
+    "name": "Serotonin",
+    "author": {
+        "name": "samet",
+        "url": "https://github.com/sametexe001"
+    },
+    "source": "https://github.com/sametexe001/sametlibs/tree/main/Serotonin",
+    "preview": "https://fent.pics/ggnnow8s.png"
 }

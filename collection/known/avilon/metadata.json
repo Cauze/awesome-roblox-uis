@@ -6,43 +6,5 @@
         "url": "https://github.com/sametexe001"
     },
     "source": "https://github.com/sametexe001/sametlibs/tree/main/avilon",
-    "preview": "",
-    "description": "Premium Roblox UI library with modern design. Includes Window, Tab, SubPage, Section, Button, Toggle, Slider, Dropdown, Colorpicker, Keybind, Label, and Textbox widgets.",
-    "widgets": [
-        "Window",
-        "Page",
-        "SubPage",
-        "Section",
-        "Button",
-        "Toggle",
-        "Slider",
-        "Dropdown",
-        "Colorpicker",
-        "Keybind",
-        "Label",
-        "Textbox"
-    ],
-    "apiSignature": {
-        "Window": "Library:Window({Name, SubName, Logo})",
-        "Page": "Window:Page({Name, Icon})",
-        "SubPage": "Page:SubPage({Name, Description, Icon})",
-        "Section": "SubPage:Section({Name, Description, Side})",
-        "Button": "Section:Button({Name, Callback})",
-        "Toggle": "Section:Toggle({Name, Flag, Default, Callback})",
-        "Slider": "Section:Slider({Name, Flag, Min, Max, Default, Suffix, Decimals, Callback})",
-        "Dropdown": "Section:Dropdown({Name, Flag, Items, Default, MaxSize, Multi, Callback})",
-        "Colorpicker": "Section:Colorpicker({Name, Flag, Default, Alpha, Callback})",
-        "Keybind": "Section:Keybind or Label:Keybind({Flag, Mode, Default, Callback})",
-        "Label": "Section:Label({Name})",
-        "Textbox": "Section:Textbox({Name, Flag, Default, Placeholder, Finished, Numeric, Callback})"
-    },
-    "colorScheme": {
-        "background": "rgb(17, 18, 22)",
-        "accent": "rgb(131, 48, 15)",
-        "accent2": "rgb(74, 36, 23)",
-        "accent3": "rgb(157, 53, 12)",
-        "accent4": "rgb(225, 66, 6)",
-        "text": "rgb(199, 199, 212)"
-    },
-    "tags": ["ui-library", "roblox", "featured"]
+    "preview": ""
 }

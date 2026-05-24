@@ -1,10 +1,10 @@
 {
-    "id":  "octohook",
-    "name":  "Octohook",
-    "author":  {
-                   "name":  "i77lhm",
-                   "url":  "https://github.com/i77lhm"
-               },
-    "source":  "https://github.com/i77lhm/Libraries/tree/main/Octohook",
-    "preview":  "https://fent.pics/jwf2pmdd.png"
+    "id": "octohook",
+    "name": "Octohook",
+    "author": {
+        "name": "i77lhm",
+        "url": "https://github.com/i77lhm"
+    },
+    "source": "https://github.com/i77lhm/Libraries/tree/main/Octohook",
+    "preview": "https://fent.pics/jwf2pmdd.png"
 }
