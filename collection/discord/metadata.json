@@ -1,10 +1,10 @@
 {
-    "id": "discord",
-    "name": "Discord Lib",
-    "author": {
-        "name": "dawid-scripts",
-        "url": "https://github.com/dawid-scripts"
-    },
-    "source": "https://github.com/dawid-scripts/UI-Libs/blob/main/discord%20lib.txt",
-    "preview": "https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord-preview.png"
+    "id":  "discord",
+    "name":  "Discord Lib",
+    "author":  {
+                   "name":  "dawid-scripts",
+                   "url":  "https://github.com/dawid-scripts"
+               },
+    "source":  "https://github.com/dawid-scripts/UI-Libs/blob/main/discord%20lib.txt",
+    "preview":  null
 }

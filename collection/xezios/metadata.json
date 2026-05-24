@@ -1,10 +1,10 @@
 {
-    "id": "xezios",
-    "name": "Xezios",
-    "author": {
-        "name": "i77lhm",
-        "url": "https://github.com/i77lhm"
-    },
-    "source": "https://github.com/i77lhm/Libraries/tree/main/Xezios",
-    "preview": "https://github.com/i77lhm/Libraries/raw/main/Images/Xezios.png"
+    "id":  "xezios",
+    "name":  "Xezios",
+    "author":  {
+                   "name":  "i77lhm",
+                   "url":  "https://github.com/i77lhm"
+               },
+    "source":  "https://github.com/i77lhm/Libraries/tree/main/Xezios",
+    "preview":  "https://fent.pics/37gf5tpq.png"
 }
