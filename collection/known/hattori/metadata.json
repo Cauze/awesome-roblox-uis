@@ -1,10 +1,7 @@
 {
     "id": "hattori",
     "name": "Hattori",
-    "author": {
-        "name": "xMee",
-        "url": "https://v3rmillion.net/member.php?action=profile&uid=1072327"
-    },
+    "author": null,
     "source": "https://github.com/GhostDuckyy/UI-Libraries/tree/main/Hattori/V4",
     "preview": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgur.com%2F2oQ5vmT.png"
 }

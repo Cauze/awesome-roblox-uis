@@ -188,9 +188,9 @@ const repoRawBase = "https://raw.githubusercontent.com/Cauze/awesome-roblox-uis/
 							class="card"
 							data-id={entry.id.toLowerCase()}
 							data-name={entry.name.toLowerCase()}
-							data-author={entry.author.name.toLowerCase()}
+							data-author={entry.author ? entry.author.name.toLowerCase() : ''}
 						>
-							<img src={entry.preview} alt={`${entry.name} preview`} loading="lazy" />
+							<img src={entry.preview || 'https://via.placeholder.com/400x200?text=No+Preview'} alt={`${entry.name} preview`} loading="lazy" />
 							<div class="content">
 								<h2 class="title">
 									<a class="title-link" href={entry.source} target="_blank" rel="noreferrer">{entry.name}</a>
@@ -198,9 +198,11 @@ const repoRawBase = "https://raw.githubusercontent.com/Cauze/awesome-roblox-uis/
 										↗
 									</a>
 								</h2>
-								<p class="meta">
-									by <a href={entry.author.url} target="_blank" rel="noreferrer">{entry.author.name}</a>
-								</p>
+								{entry.author && (
+									<p class="meta">
+										by <a href={entry.author.url} target="_blank" rel="noreferrer">{entry.author.name}</a>
+									</p>
+								)}
 								<div class="links">
 									<a
 										href={`${repoRawBase}/collection/known/${entry.id}/source.lua`}

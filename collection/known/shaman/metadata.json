@@ -1,10 +1,7 @@
 {
     "id": "shaman",
     "name": "Shaman",
-    "author": {
-        "name": "Rain-Design",
-        "url": "https://github.com/Rain-Design"
-    },
+    "author": null,
     "source": "https://github.com/Rain-Design/Libraries",
     "preview": "https://raw.githubusercontent.com/Eazvy/UILibs/main/Librarys/Shaman/pnDNX8-387989605-468x338.png"
 }

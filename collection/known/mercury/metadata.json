@@ -1,10 +1,7 @@
 {
     "id": "mercury",
     "name": "Mercury",
-    "author": {
-        "name": "Deity & Abstract",
-        "url": "https://github.com/deeeity"
-    },
+    "author": null,
     "source": "https://github.com/deeeity/mercury-lib",
     "preview": "https://raw.githubusercontent.com/deeeity/mercury-lib/main/preview.png"
 }

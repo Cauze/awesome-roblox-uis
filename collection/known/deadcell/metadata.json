@@ -1,10 +1,7 @@
 {
     "id": "deadcell",
     "name": "Deadcell",
-    "author": {
-        "name": "GhostDuckyy",
-        "url": "https://github.com/GhostDuckyy"
-    },
+    "author": null,
     "source": "https://github.com/GhostDuckyy/UI-Libraries/tree/main/DEADCELL%20REMAKE",
     "preview": "https://github.com/Eazvy/UILibs/raw/main/Librarys/Deadcell/Screenshot%202023-03-07%20232058.png"
 }

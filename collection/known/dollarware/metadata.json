@@ -1,10 +1,7 @@
 {
     "id": "dollarware",
     "name": "Dollarware",
-    "author": {
-        "name": "Topit",
-        "url": "https://github.com/topitbopit"
-    },
+    "author": null,
     "source": "https://raw.githubusercontent.com/topitbopit/dollarware/main/library.lua",
     "preview": "https://raw.githubusercontent.com/Eazvy/UILibs/main/Librarys/Dollarware/screenshot.png"
 }

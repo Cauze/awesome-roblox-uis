@@ -1,10 +1,7 @@
 {
     "id": "apple",
     "name": "Apple",
-    "author": {
-        "name": "GoHamza",
-        "url": "https://github.com/GoHamza"
-    },
+    "author": null,
     "source": "https://github.com/GoHamza/AppleLibrary",
     "preview": "https://github.com/Eazvy/UILibs/raw/main/Librarys/Apple/Screenshot%202023-03-01%20172128.png"
 }

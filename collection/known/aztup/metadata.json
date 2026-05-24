@@ -1,10 +1,7 @@
 {
     "id": "aztup",
     "name": "Aztup",
-    "author": {
-        "name": "aztup",
-        "url": "https://github.com/aztup"
-    },
+    "author": null,
     "source": "https://github.com/Eazvy/UILibs/tree/main/Librarys/Aztup",
     "preview": "https://raw.githubusercontent.com/Eazvy/UILibs/main/Librarys/Aztup/Screenshot%202022-07-12%20214409.png"
 }

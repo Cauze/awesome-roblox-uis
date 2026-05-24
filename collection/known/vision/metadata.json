@@ -1,10 +1,7 @@
 {
     "id": "vision",
     "name": "Vision UI Lib v2",
-    "author": {
-        "name": "Loco_CTO, Sius and BruhOOFBoi",
-        "url": "https://github.com/Loco-CTO/UI-Library"
-    },
+    "author": null,
     "source": "https://raw.githubusercontent.com/Loco-CTO/UI-Library/main/VisionLibV2/source.lua",
-    "preview": ""
+    "preview": null
 }

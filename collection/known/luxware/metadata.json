@@ -1,10 +1,7 @@
 {
     "id": "luxware",
     "name": "Luxware",
-    "author": {
-        "name": "xHeptc",
-        "url": "https://v3rmillion.net/member.php?action=profile&uid=1347047"
-    },
+    "author": null,
     "source": "https://github.com/xHeptc/Luxware-UI-Library",
     "preview": "https://raw.githubusercontent.com/Eazvy/UILibs/main/Librarys/Luxware/Screenshot%202022-11-29%20131542.png"
 }

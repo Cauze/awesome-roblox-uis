@@ -1,10 +1,7 @@
 {
     "id": "material",
     "name": "Material",
-    "author": {
-        "name": "Kinlei",
-        "url": "https://github.com/Kinlei"
-    },
+    "author": null,
     "source": "https://github.com/Kinlei/MaterialLua",
-    "preview": ""
+    "preview": null
 }

@@ -1,10 +1,7 @@
 {
     "id": "pphud",
     "name": "PPHUD",
-    "author": {
-        "name": "ZCute",
-        "url": "https://v3rmillion.net/member.php?action=profile&uid=1431869"
-    },
+    "author": null,
     "source": "https://github.com/GhostDuckyy/UI-Libraries/tree/main/PPHUD",
     "preview": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.imgur.com%2FurB3De4.png"
 }

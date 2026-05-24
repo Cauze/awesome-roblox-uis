@@ -1,10 +1,7 @@
 {
     "id": "exodus",
     "name": "Exodus",
-    "author": {
-        "name": "WetCheezit",
-        "url": "https://github.com/WetCheezit"
-    },
+    "author": null,
     "source": "https://github.com/WetCheezit/UI-Libs/blob/main/Exodus.lua",
-    "preview": ""
+    "preview": null
 }

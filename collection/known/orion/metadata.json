@@ -1,10 +1,7 @@
 {
     "id": "orion",
     "name": "Orion",
-    "author": {
-        "name": "shlexware",
-        "url": "https://github.com/shlexware"
-    },
+    "author": null,
     "source": "https://raw.githubusercontent.com/jensonhirst/Orion/main/source",
     "preview": "https://raw.githubusercontent.com/GhostDuckyy/UI-Libraries/main/Orion/Screenshot.png"
 }

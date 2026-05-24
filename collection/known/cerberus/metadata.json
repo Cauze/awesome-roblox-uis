@@ -1,10 +1,7 @@
 {
     "id": "cerberus",
     "name": "Cerberus",
-    "author": {
-        "name": "Jxereas",
-        "url": "https://github.com/Jxereas"
-    },
+    "author": null,
     "source": "https://github.com/Eazvy/UILibs/tree/main/Librarys/Cerberus",
     "preview": "https://raw.githubusercontent.com/GhostDuckyy/UI-Libraries/main/Cerberus/Screenshot.png"
 }
